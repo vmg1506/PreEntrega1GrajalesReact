@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        <ItemListContainer />
+        <ItemListContainer texto = "Bienvenidos, Sitio en construccion" />
     </div>
   );
 }

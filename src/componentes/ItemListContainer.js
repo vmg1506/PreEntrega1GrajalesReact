@@ -2,9 +2,13 @@ import REACT from 'react';
 import fondo from '../imagenes/Fondo_gris.jpg'
 
 
-function Main() {
+function ItemListContainer( greetings ) {
+    
     return (
         <>
+            <div className='saludo'>
+                <h1>{greetings.texto}</h1>
+            </div>
             <div className='contenedor-main'>
                     <div className='card1'>
                     <div class="card">
@@ -88,4 +92,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default ItemListContainer;
