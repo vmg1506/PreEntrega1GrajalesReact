@@ -1,0 +1,25 @@
+.contenedor-fondo {
+    min-height: 500px;
+    background-color: black;
+}
+
+
+
+.barra {
+    background-color: rgb(109, 105, 109);
+    
+    div {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        color: lightgray;
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+
+
+
