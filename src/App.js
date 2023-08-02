@@ -1,20 +1,20 @@
 import logo from './logo.svg';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './hojas-de-estilo/Header.scss';
-import './hojas-de-estilo/Main.scss';
-import './componentes/Header';
-import './componentes/Main';
+import './hojas-de-estilo/NavBar.scss';
+import './hojas-de-estilo/ItemListContainer.scss';
+import './componentes/NavBar';
+import './componentes/ItemListContainer';
 import './componentes/Footer';
-import Header from './componentes/Header';
-import Main from './componentes/Main';
+import NavBar from './componentes/NavBar';
+import ItemListContainer from './componentes/ItemListContainer';
 
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Main />
+        <NavBar />
+        <ItemListContainer />
     </div>
   );
 }
